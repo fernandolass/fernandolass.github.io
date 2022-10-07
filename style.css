@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+
+	font-size: 100%;
+	background-image: linear-gradient(to right, rgba(0, 135, 229, 0.8), rgba(32, 226, 148, 1));
+	
+}
+
+.cabeçalho {
+
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	padding: 24px;
+	margin-bottom: none;
+}
+
+.cabeçalho-menu {
+	display: flex;
+	gap: 32px;
+}
+
+.cabeçalho-menu-item {
+	font-family: 'Righteous', cursive;
+	color: #FFF2E7 ;
+	font-weight: 400;
+	font-size: 18px;	
+	text-decoration: none;
+}
+
+.cabeçalho-menu-item-imagem {
+
+}
+
+
+/*-----------------------*/
+
+.conteúdo-principal {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:space-around;
+	gap: 0px;
+}
+
+.conteúdo-principal-escrito{
+	display: flex;
+	flex-direction: column;
+	color: #FFF2E7;
+	gap: none;
+	margin-left: 40px;
+}
+
+.conteudo-principal-escrito-titulo {
+	font-weight: 400;
+	font-size: 64px;
+	font-family: 'righteous', cursive;
+	margin-bottom: 0px;
+	color: #FFF2E7;
+	
+	
+}
+
+.conteudo-principal-escrito-subtitulo {
+
+	font-family: 'righteous', cursive;
+	font-weight: 300;
+	font-size: 19px;
+	color: #FFF2E7;
+}
+
+.button {
+	background-color: #;
+	width: 180px;
+	height: 60px;
+	border: none;
+	border-radius: 30px;
+	font-family:  'Righteous', cursive;
+	box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.50);
+
+}
+
+.pé {
+	
+	justify-content: center;
+	align-items: baseline;
+	padding: 24px;
+	margin-bottom: none;
+}
+
+.conteudo-escrito {
+	display: flex;
+	background-color: ;
+	margin: 50px;
+	margin-top: 0px;
+	color: #FFF2E7;
+	justify-content: center;
+	align-items: baseline;
+	flex-direction: column;
+
+}
+
+.conteúdo-principal-pesq {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.img-sobre {
+	padding-left: 150px;
+}
+
+.conteúdo-principal-imagem-tirolês {
+padding-top: 40px;
+}
+
+.conteudo-principal-escrito-subtitulo-pesq {
+	font-family: 'righteous', cursive;
+	font-weight: 300;
+	font-size: 19px;
+	color: #FFF2E7;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+	
+
+
+
